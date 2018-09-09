@@ -1,0 +1,30 @@
+li a {
+    color:black;
+}
+
+.navbar-default {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    align-content: center;
+    margin:0 auto;
+}
+
+.nav nav-tabs {
+    float: right;
+    align-content: center;
+    display: inline-block;
+}
+.navbar .navbar-header{
+        float:none;
+        display:inline-block;
+        vertical-align: top;
+    }
+.navbar-brand {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  text-align: left;
+}
+  
