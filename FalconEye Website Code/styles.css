@@ -27,4 +27,21 @@ li a {
   left: 0;
   text-align: left;
 }
-  
+.Button1 {
+    background-color:white;
+    color:black;
+    border-radius: 5px;
+    border: 2px solid gold;
+}
+.Button2 {
+    background-color:white;
+    color:black;
+    border-radius: 5px;
+    border: 2px solid gold;
+}
+
+#Home-Text {
+    text-align: center;
+    font-size: 20px;
+
+}
