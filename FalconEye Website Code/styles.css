@@ -23,7 +23,7 @@ li a {
     }
 .navbar-brand {
   position: absolute;
-  width: 100%;
+    width:100%;
   left: 0;
   text-align: left;
 }
