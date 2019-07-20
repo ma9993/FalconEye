@@ -1,10 +1,10 @@
 <?php
 // Configure your Subject Prefix and Recipient here
-$subjectPrefix = '[Contact via website]';
-$emailTo       = '<YOUR_EMAIL_HERE>';
+$subjectPrefix = '[Contact via email]';
+$emailTo       = 'falconeyeteam@gmail.com';
 $errors = array(); // array to hold validation errors
 $data   = array(); // array to pass back data
-if($_SERVER['REQUEST_METHOD'] === 'POST') {
+if($_SERVER['REQUEST_METHOD'] == 'POST') {
     $name    = stripslashes(trim($_POST['name']));
     $email   = stripslashes(trim($_POST['email']));
     $subject = stripslashes(trim($_POST['subject']));

@@ -112,7 +112,7 @@ input:-webkit-autofill:focus {
     vertical-align: top;
     padding-top: 30px;
     font-size: 30px;
-    margin-left: 150px;
+    margin-left: 10px;
     position: absolute;
     left:0;
 }
@@ -142,7 +142,6 @@ input:-webkit-autofill:focus {
     flex-wrap: wrap;
     color: #000000;
     opacity: 100px;
-
 }
 
 .section-padding {
@@ -324,11 +323,11 @@ input:-webkit-autofill:focus {
 }
 
 .mainmenu-area .logo {
-    text-transform: uppercase;
+    text-transform: upperFcase;
     letter-spacing: 2px;
-    height: inherit;
+    height: absolute;
     margin-top: 8px;
-    padding-left: 0;
+    float:right;
 }
 
 .mainmenu-area .logo h2 {
@@ -337,10 +336,11 @@ input:-webkit-autofill:focus {
 
 .mainmenu-area #primary-menu > ul > li > a {
     background: none;
-    padding: 30px 15px;
+    padding: 30px 20px;
     position: relative;
     border-top: 3px solid transparent;
     text-align: center;
+    display: inline-block;
 }
 
 .mainmenu-area #primary-menu > ul > li > a:before {
@@ -384,7 +384,7 @@ input:-webkit-autofill:focus {
 
 .client-area,
 .header-area {
-    background: #000000 url('images/sline.jpg') no-repeat scroll center center / cover;
+    background: #000000 url('images/field.png') no-repeat scroll center center / cover;
 }
 .clients{
     text-align:left;
@@ -397,7 +397,7 @@ input:-webkit-autofill:focus {
     text-align:center;
 }
 .anlge-bg {
-    background: url('images/angle-bg.png') no-repeat scroll center bottom -120px / 100% auto;
+    background: url() no-repeat scroll center bottom -120px / 100% auto;
 }
 
 .overlay {
